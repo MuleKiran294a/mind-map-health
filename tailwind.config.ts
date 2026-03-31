@@ -57,6 +57,16 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        risk: {
+          low: "hsl(var(--risk-low))",
+          moderate: "hsl(var(--risk-moderate))",
+          high: "hsl(var(--risk-high))",
+          critical: "hsl(var(--risk-critical))",
+        },
+      },
+      fontFamily: {
+        heading: ["Space Grotesk", "sans-serif"],
+        body: ["Inter", "sans-serif"],
       },
       borderRadius: {
         lg: "var(--radius)",
